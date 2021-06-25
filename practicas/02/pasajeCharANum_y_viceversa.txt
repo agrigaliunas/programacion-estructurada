@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char x,a,b,c,d;
+    unsigned int i=0;
+    unsigned int mask= 255;
+
+    a='h';
+    b='o';
+    c='l';
+    d='a';
+
+    i=a;
+    i= i<<8;
+    i= i | b;
+    i= i<<8;
+    i = i|c;
+    i= i<<8;
+    i = i|d;
+
+    printf("%d\n",i);
+
+    x=(i & (mask << 24)) >> 24;
+    printf("%c",x);
+
+    x=(i & (mask << 16)) >> 16;
+    printf("%c",x);
+
+    x=(i & (mask << 8)) >> 8;
+    printf("%c",x);
+
+    x=(i & (mask << 0)) >> 0;
+    printf("%c",x);
+   
+return 0;
+}

@@ -1,0 +1,8 @@
+1234,DiPace,Damian,38
+2634,Xul,Silvana,22
+7312,Quintela,Facundo,19 
+9932,Cloce,Lara,61 
+8796,Stewar,Eric,32 
+3468,Rivas,Rolando,54 
+7436,Antunez,Claudia,19 
+7744,Zarate,Ricardo,70

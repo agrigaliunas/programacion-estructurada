@@ -1,0 +1,3 @@
+42818618,giovanni,espana
+16962058,rosana,colombia
+42996646,agustin,argentina

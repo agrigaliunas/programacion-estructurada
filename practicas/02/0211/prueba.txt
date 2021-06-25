@@ -1,0 +1,12 @@
+    
+    
+    unsigned char a = 'a'; // '97'  0 1 1 0 0 0 0 1
+
+
+    unsigned char b = 'b'; // '98'  0 1 1 0 0 0 1 0
+
+
+    unsigned char c = 'c'; // '99'  0 1 1 0 0 0 1 1
+
+
+    unsigned char d = 'd'; // '100' 0 1 1 0 0 1 0 0
